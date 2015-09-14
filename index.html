@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Opinioning</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./static/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://getbootstrap.com/examples/starter-template/#">Opinioning</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="topicSearchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Topics
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="topicSearchDropdown">
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Create</a></li>
+            <li><a href="#">Get Personal Feedback</a></li>
+          </ul>
+          <a class="navbar-brand" id="login" href="http://getbootstrap.com/examples/starter-template/#">Login</a>
+          <form class="form-inline">
+            <div class="form-group" id="searchbar">
+              <label for="exampleInputName2">Search</label>
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+            </div>
+        </form>
+
+        </div>
+        </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class= "row">
+          <div id="graph">
+            <svg id="network" ></svg>
+          </div>
+      </div>
+      <div class="row">
+        <div class="latest-topics">
+          <h3>Latest Topics</h3>
+          <div class="latest-topic-box">Topic 1</div>
+          <div class="latest-topic-box">Topic 2</div>
+          <div class="latest-topic-box">Topic 3</div>
+          <div class="latest-topic-box">Topic 4</div>
+          <div class="latest-topic-box">Topic 5</div>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <div class="container-fluid">
+      <div class = "row">
+        <div class="footer">
+          <div class="col-xs-6 col-md-3">
+            About <br>
+          FAQ <br>
+          Terms and Conditions <br>
+        </div>
+          <div class="col-xs-6 col-md-3">Contact</div>
+          <div class="col-xs-6 col-md-3"></div>
+          <div class="col-xs-6 col-md-3">Social Media</div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./static/js/jquery.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./static/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="./static/js/data.js"></script>
+    <script type="text/javascript" src="./static/js/network.js"></script>
+</body></html>
